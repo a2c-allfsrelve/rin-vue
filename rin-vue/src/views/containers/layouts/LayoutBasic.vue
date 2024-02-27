@@ -4,7 +4,7 @@
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer"/>
         <q-toolbar-title>
-          Title
+          RIN
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -23,16 +23,14 @@
         </template>
       </q-list>
     </q-drawer>
-
     <q-page-container class="container">
       <RouterView />
     </q-page-container>
-
     <q-footer elevated class="bg-grey-8 text-white">
       <q-toolbar>
-        <q-toolbar-title>
+        <!-- <q-toolbar-title>
           <div>Title</div>
-        </q-toolbar-title>
+        </q-toolbar-title> -->
       </q-toolbar>
     </q-footer>
 
